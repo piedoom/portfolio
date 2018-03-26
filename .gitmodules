@@ -1,0 +1,3 @@
+[submodule "themes\\gutenberg-portfolio"]
+	path = themes\\gutenberg-portfolio
+	url = https://github.com/piedoom/gutenberg-portfolio
