@@ -6,7 +6,7 @@ title = "Resamplr"
 
 Resamplr has been a passion project of mine since High School.  The goal is to create a modern and approachable audio software company.  This is a summary of the past 5 years I've experimented with its design.
 
-{{ break(image="resamplr/banner.jpg") }}
+
 
 # Beginnings
 
@@ -81,3 +81,7 @@ With these ideas in mind, I created mockups.
 
 # Creating it
 {{ key(title="Create it") }}
+
+So, what else is there to do but make it?  Resamplr is [live](https://resamplr.com).  I used Rails 5 and traditional HTML/CSS for the current implementation.  
+
+I'm working to transfer the Rails project into a custom Rust based server with Elm as the frontend choice.  You can see my progress [here](https://github.com/resamplr/resamplr-web).  I'm not usually one to boast about Github stars, but I'm pretty proud of the 44 I received thus far.

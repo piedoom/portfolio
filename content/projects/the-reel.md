@@ -6,7 +6,7 @@ title = "The Reel: Sports Highlights"
 
 The Reel is a mobile app for following, browsing, and sharing short sport hightlights clips.
 
-{{ youtube(id="4z2N4ryNovM") }}
+{{ gifv(path="the-reel/video.mp4", max="400px", controls="true") }}
 
 {{ key(title="Gallery") }}
 
