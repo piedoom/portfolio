@@ -1,5 +1,7 @@
 +++
 title = "Resamplr"
+[extra]
+image = "resamplr/banner2.jpg"
 +++
 
 {{ key(title="Intro") }}

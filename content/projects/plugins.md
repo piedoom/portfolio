@@ -1,5 +1,7 @@
 +++
 title = "Resamplr Plugins"
+[extra]
+image = "plugins/colors.png"
 +++
 
 If you haven't taken a look at [Resamplr](/projects/resamplr) yet, I highly recommend doing so before checking out this post!  It'll help put everything in context.
@@ -26,5 +28,3 @@ Here, several colors are used to help users immediately identify UI components. 
 {{ image(path="plugins/animate-comp.png") }}
 
 Even though the elements are physically seperated due to layout constraints, color coding allows the user to easily understand what parameter affects which node.
-
-
