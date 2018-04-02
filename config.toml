@@ -12,3 +12,4 @@ theme = "gutenberg-portfolio"
 
 [extra]
 # Put all your custom variables here
+portfolio_tracking_id = "UA-62288351-4"
