@@ -2,7 +2,7 @@
 title = "Resamplr's Sampler: Engine"
 date = 2018-03-25
 [extra]
-image = "resamplr/banner2.jpg"
+image = "sampler/sections.png"
 +++
 
 Yeah, I know the title seems weird.  Let me explain: [Resamplr](/projects/resamplr) is my fledgling audio company.  The flagship product is a low-cost **sampler**, or virtual instrument.  
