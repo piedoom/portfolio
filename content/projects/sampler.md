@@ -1,5 +1,6 @@
 +++
 title = "Resamplr's Sampler: Engine"
+date = 2018-03-25
 [extra]
 image = "resamplr/banner2.jpg"
 +++

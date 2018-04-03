@@ -1,5 +1,6 @@
 +++
 title = "Resamplr Plugins"
+date = 2018-03-22
 [extra]
 image = "plugins/colors.png"
 +++

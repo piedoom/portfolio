@@ -1,5 +1,6 @@
 +++
 title = "The Reel: Sports Highlights"
+date = 2018-03-28
 [extra]
 image = "the-reel/login.png"
 +++

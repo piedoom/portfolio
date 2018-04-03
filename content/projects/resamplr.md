@@ -1,5 +1,6 @@
 +++
 title = "Resamplr"
+date = 2018-03-28
 [extra]
 image = "resamplr/banner2.jpg"
 +++
