@@ -61,26 +61,18 @@ Because this was a shorter personal project, I delved straight into high fidelit
 
 I chose an analogous color theme for each graphic to mimic a natural palette.  While each graph has different colors, they all abide to the same style.  I also wanted colors and design to change depending on data, so I designed two screens each at different extremes.
 
-{{ album2(path1="weather-station/old/rainfall-heavy.png", path2="weather-station/old/rainfall-light.png") }}
+{{ album4(path1="weather-station/old/rainfall-heavy.png", path2="weather-station/old/rainfall-light.png", path3="weather-station/old/uv-bad.png", path4="weather-station/old/uv-good.png") }}
 
-{{ album2(path1="weather-station/old/uv-bad.png", path2="weather-station/old/uv-good.png") }}
-
-{{ album2(path1="weather-station/old/noise-bad.png", path2="weather-station/old/noise-good.png") }}
-
-{{ album2(path1="weather-station/old/air-quality-finished.png", path2="weather-station/old/air-quality-good.png") }}
+{{ album4(path1="weather-station/old/noise-bad.png", path2="weather-station/old/noise-good.png", path3="weather-station/old/air-quality-finished.png", path4="weather-station/old/air-quality-good.png") }}
 
 # Comps
 {{ key(title="Comps") }}
 
 I really like the way my first compositions displayed data, but I think they are a little too muted in color.  The typography could use work as well.  It just doesn't convey that "fun" feeling!  Here's a second pass.
 
-{{ album2(path1="weather-station/rainfall-heavy.png", path2="weather-station/rainfall-2.png") }}
+{{ album4(path1="weather-station/rainfall-heavy.png", path2="weather-station/rainfall-2.png", path3="weather-station/uv-index.png", path4="weather-station/uv-index-low.png") }}
 
-{{ album2(path1="weather-station/uv-index.png", path2="weather-station/uv-index-low.png") }}
-
-{{ album2(path1="weather-station/noise-loud.png", path2="weather-station/sound-light.png") }}
-
-{{ album2(path1="weather-station/air-quality-bad-after-anim.png", path2="weather-station/air-quality-good.png") }}
+{{ album4(path1="weather-station/noise-loud.png", path2="weather-station/sound-light.png", path3="weather-station/air-quality-bad-after-anim.png", path4="weather-station/air-quality-good.png") }}
 
 # Physical Product
 {{ key(title="Renders") }}
