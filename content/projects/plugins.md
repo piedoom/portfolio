@@ -3,6 +3,7 @@ title = "Resamplr Plugins"
 date = 2018-03-22
 [extra]
 image = "plugins/colors.png"
+video = "plugins/banner.mp4"
 +++
 
 If you haven't taken a look at [Resamplr](/projects/resamplr) yet, I highly recommend doing so before checking out this post!  It'll help put everything in context.
