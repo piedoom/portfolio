@@ -3,6 +3,7 @@ title = "CG Art Collection"
 date = 2018-01-28
 [extra]
 image = "cg/teamproject2.png"
+video = "cg/banner.mp4"
 +++
 
 When I was 10, my dad showed me a piece of free software called "Blender".  I've stuck with it ever since, and I owe it both my Dad and the Blender Foundation for getting me interested in computers and design.
