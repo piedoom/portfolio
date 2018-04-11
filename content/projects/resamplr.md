@@ -3,6 +3,7 @@ title = "Resamplr"
 date = 2018-03-28
 [extra]
 video = "resamplr/banner.mp4"
+no_title_on_hover = true
 +++
 
 {{ key(title="Intro") }}

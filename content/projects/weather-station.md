@@ -3,6 +3,7 @@ title = "Weather Station"
 date = 2018-04-02
 [extra]
 video = "weather-station/banner.mp4"
+no_title_on_hover = true
 +++
 
 {{ key(title="Intro") }}

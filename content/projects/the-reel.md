@@ -3,6 +3,7 @@ title = "The Reel: Sports Highlights"
 date = 2018-03-26
 [extra]
 video = "the-reel/banner.mp4"
+no_title_on_hover = true
 +++
 
 {{ key(title="Intro") }}
