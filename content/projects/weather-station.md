@@ -3,6 +3,7 @@ title = "Weather Station"
 date = 2018-04-02
 [extra]
 image = "weather-station/air-quality-bad-after-anim.png"
+video = "weather-station/banner.mp4"
 +++
 
 {{ key(title="Intro") }}
