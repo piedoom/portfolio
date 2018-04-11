@@ -2,7 +2,6 @@
 title = "The Reel: Sports Highlights"
 date = 2018-03-26
 [extra]
-image = "the-reel/like.png"
 video = "the-reel/banner.mp4"
 +++
 

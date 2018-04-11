@@ -2,7 +2,6 @@
 title = "CG Art Collection"
 date = 2018-01-28
 [extra]
-image = "cg/teamproject2.png"
 video = "cg/banner.mp4"
 +++
 

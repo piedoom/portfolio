@@ -2,7 +2,6 @@
 title = "Resamplr's Sampler: Engine"
 date = 2018-03-25
 [extra]
-image = "sampler/sections.png"
 video = "sampler/banner.mp4"
 +++
 
