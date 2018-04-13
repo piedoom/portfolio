@@ -16,15 +16,11 @@ Resamplr has been a passion project of mine since High School.  The goal is to c
 
 I began working on Resamplr (or at least the foundations) around Senior year in High School.  Since I was little, I always loved to create music digitally.  I'd often use digitally "sampled" instruments to add some vibrancy to my tracks.  As I grew older, I began to sample instruments of my own, including experiments like homemade instruments and strange combinations like bowed guitars.  I shared these instruments with the internet, and the response was great. 
 
-## Creating a website
-
 {{ key(title="Rev 1 (2014)") }}
 
-In high school, I began to create my own custom website for the sounds I made.  I had brief encounters with WordPress and Wix, but in the end they proved too cumbersome for my use case.   I learned some PHP and HTML, and came up with this:
-
-{{ gifv(path="resamplr/rev1.mp4") }}
-
-If you're thinking "Wow, this looks awful" - well, I was much younger.  **This whole post is supposed to show my personal progress when it comes to design and interaction.**  So let's start critiquing and improving, shall we?
+{% grid(type="video", path="resamplr/rev1.mp4", header="Creating a website" format="large") %}
+    In high school, I began to create my own custom website for the sounds I made.  I had brief encounters with WordPress and Wix, but in the end they proved too cumbersome for my use case.   I learned some PHP and HTML, and came up with this. **This whole post is supposed to show my personal progress when it comes to design and interaction.**  So let's start critiquing and improving.
+{% end %}
 
 # Rev 2
 
@@ -38,11 +34,10 @@ A year or so later, I came back with some new skills.  I learned how to create f
 
 I was wrong about all three of these points.  Let's see what happened!
 
-## The Style Guide
+{% grid(type="image", path="resamplr/rev2style.png", header="The Style Guide" format="large") %}
+    Remember what I said about clean and professional?  I kept everything pretty sterile looking.  Not only that, but I was one of the poor kids who got sucked into the "use thin fonts for literally everything! It's readable, I promise!" phase. 
+{% end %}
 
-Remember what I said about clean and professional?  I kept everything pretty sterile looking.  Not only that, but I was one of the poor kids who got sucked into the "use thin fonts for literally everything! It's readable, I promise!" phase. 
-
-{{ image(path="resamplr/rev2style.png") }}
 
 {{ album4(path1="resamplr/rev2home.png", path2="resamplr/rev2login.png", path3="resamplr/rev2product.png", path4="resamplr/rev2player.png") }}
 
@@ -64,17 +59,13 @@ Instead of looking at audio websites this time, I started my search with *graphi
 
 The main objective is to provide a **different** and **better** experience for all users - an experience that is **easier, more intuitive, cleaner, and more developer-friendly** than competitors. 
 
-{{ image(path="resamplr/design3.png") }}
-{{ image(path="resamplr/design4.png") }}
-{{ image(path="resamplr/design5.png") }}
 
-# Designing for Sound
+{{ album3(path1="resamplr/design3.png", path2="resamplr/design4.png", path3="resamplr/design5.png") }}
 
-To start, I use complementary colors and angular accents.  I am party inspired by Jazz-era graphics with bold colors and trapezoidal shapes, as well as how the complementary colors "buzzed" similarly to sound waves. 
-
-I keep UI elements simple, and typefaces utilitarian.  While the injection of color and style is great, it shouldn't shout over the main attraction, which is audio.
-
-{{ image(path="resamplr/style3.png") }}
+{% grid(type="image", path="resamplr/style3.png", header="Designing for Sound" format="large") %}
+    To start, I use complementary colors and angular accents.  I am party inspired by Jazz-era graphics with bold colors and trapezoidal shapes, as well as how the complementary colors "buzzed" similarly to sound waves. 
+    I keep UI elements simple, and typefaces utilitarian.  While the injection of color and style is great, it shouldn't shout over the main attraction, which is audio.
+{% end %}
 
 ## Putting it together
 
