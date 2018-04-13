@@ -6,6 +6,8 @@ video = "the-reel/banner.mp4"
 no_title_on_hover = true
 +++
 
+{{ theme(color="dark") }}
+
 {{ key(title="Intro") }}
 
 The Reel is a mobile app for following, browsing, and sharing short sport highlights clips.

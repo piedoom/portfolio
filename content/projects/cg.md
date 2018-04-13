@@ -5,6 +5,8 @@ date = 2018-01-28
 video = "cg/banner.mp4"
 +++
 
+{{ theme(color="dark") }}
+
 When I was 10, my dad showed me a piece of free software called "Blender".  I've stuck with it ever since, and I owe it both my Dad and the Blender Foundation for getting me interested in computers and design.
 
 Over the years, I've made a few things - and not all of them really have associated projects.  Some are just for fun, and some are to visualize.  Either way, here's some of my favorites.
