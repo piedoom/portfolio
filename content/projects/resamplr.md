@@ -28,7 +28,7 @@ I began working on Resamplr (or at least the foundations) around Senior year in 
 
 A year or so later, I came back with some new skills.  I learned how to create full stack web applications through my job with **iCanCode Club**.  I took my design knowlege from college and began applying that to my new layout.  I had a few priorities in mind:
 
-1. It's a commerce site.  Products should be within the first fold and be featured.
+1. *It's a commerce site.*  Products should be within the first fold and be featured.
 2. Familiar.  I looked at other popular audio companies like 8Dio and Spitfire Labs.
 3. It should be professional looking, because we're serving professionals, right?
 
