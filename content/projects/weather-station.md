@@ -1,5 +1,5 @@
 +++
-title = "Weather Station"
+title = "Overcast"
 date = 2018-04-02
 [extra]
 video = "weather-station/banner.mp4"
@@ -10,9 +10,8 @@ no_title_on_hover = true
 
 {{ disclaimer(unfinished=true) }}
 
-Weather Station is a product concept involving branding, mobile applications, and physical hardware.  The goal is to display weather information in a fun brief, with more involved information on tap.  Weather info would be captured via a smart device the user would place outside.
-
-These devices would also connect to the user's home internet and upload weather information to a central server.  This information could then be sold to third parties.
+Overcast is a personal weather station right at your fingertips.  The concept product is a smarthome device that provides useful weather,
+air quality, and noise pollution data to the user.
 
 {{ album3(path1="weather-station/rainfall-mockup.png", path2="weather-station/noise-mockup.png", path3="weather-station/air-quality-mockup.png") }}
 
