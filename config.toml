@@ -13,6 +13,7 @@ theme = "gutenberg-portfolio"
 [extra]
 # Put all your custom variables here
 portfolio_tracking_id = "UA-62288351-4"
-portfolio_name = "Alexander Lozada"
-portfolio_description = "Hey, what's up.  I'm a designer from Scranton, PA."
+#portfolio_name = "Alexander Lozada"
+portfolio_video = "logotype.mp4"
+portfolio_description = "Hey, what's up.  I'm Alexander Lozada and I'm a designer from Scranton, PA. I'm mainly interested in UI/UX, Motion, and 3D."
 portfolio_contact = "alexanderpaullozada@gmail.com"
