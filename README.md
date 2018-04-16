@@ -6,10 +6,10 @@ Just
 cargo install just
 ```
 
-cargo-web
+yarn
 
 ```
-cargo install cargo-web
+npm install -g yarn
 ```
 
 # running

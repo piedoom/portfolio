@@ -1,5 +1,5 @@
 build:
     gutenberg build
 
-serve:
+serve: build
     gutenberg serve
