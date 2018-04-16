@@ -1,2 +1,6 @@
 public 
 node_modules
+elm-stuff
+static/js/elm.js
+proto
+*.log
