@@ -1,14 +1,17 @@
 +++
 title = "Resamplr"
 date = 2018-03-28
+tags = ["ui/ux","web app","audio"]
 [extra]
 video = "resamplr/banner.mp4"
 no_title_on_hover = true
+summary = "Resamplr has been a passion project of mine since High School.  The goal is to create a modern and approachable audio software company.  This is a summary of the past 5 years I've experimented with its design."
+duration_years = 5
 +++
 
 {{ key(title="Intro") }}
 
-Resamplr has been a passion project of mine since High School.  The goal is to create a modern and approachable audio software company.  This is a summary of the past 5 years I've experimented with its design.
+
 
 
 
@@ -18,9 +21,11 @@ I began working on Resamplr (or at least the foundations) around Senior year in 
 
 {{ key(title="Rev 1 (2014)") }}
 
-{% grid(type="video", path="resamplr/rev1.mp4", header="Creating a website" format="large") %}
-    In high school, I began to create my own custom website for the sounds I made.  I had brief encounters with WordPress and Wix, but in the end they proved too cumbersome for my use case.   I learned some PHP and HTML, and came up with this. **This whole post is supposed to show my personal progress when it comes to design and interaction.**  So let's start critiquing and improving.
+{% grid(type="video", path="resamplr/rev1.mp4", header="Creating a website" ) %}
+    In high school, I began to create my own custom website for the sounds I made.  I had brief encounters with WordPress and Wix, but in the end they proved too cumbersome for my use case.   
 {% end %}
+
+I learned some PHP and HTML, and came up with the above. **This whole post is supposed to show my personal progress when it comes to design and interaction.**  So let's start critiquing and improving.
 
 # Rev 2
 

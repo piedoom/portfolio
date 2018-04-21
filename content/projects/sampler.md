@@ -1,9 +1,12 @@
 +++
 title = "Resamplr's Sampler: Engine"
 date = 2018-03-25
+tags = ["ui/ux", "desktop app", "audio"]
 [extra]
 video = "sampler/banner.mp4"
+summary = "Engine is the solution to expensive, dated, and developer unfriendly sampler engines used in music production."
 no_title_on_hover = true
+duration_weeks = 3
 +++
 
 Yeah, I know the title seems weird.  Let me explain: [Resamplr](/projects/resamplr) is my fledgling audio company.  The flagship product is a low-cost **sampler**, or virtual instrument.  

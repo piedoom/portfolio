@@ -1,27 +1,26 @@
 +++
 title = "Overcast"
 date = 2018-04-02
+tags = ["ui/ux", "experimental", "wip", "phone app"]
 [extra]
 video = "weather-station/banner.mp4"
 no_title_on_hover = true
+duration_weeks = 2
+summary = "Overcast is a personal weather station right at your fingertips.  The concept product is a smarthome device that provides useful weather, air quality, and noise pollution data to the user."
+
 +++
 
 {{ key(title="Intro") }}
 
 {{ disclaimer(unfinished=true) }}
 
-Overcast is a personal weather station right at your fingertips.  The concept product is a smarthome device that provides useful weather,
-air quality, and noise pollution data to the user.
-
 {{ album3(path1="weather-station/rainfall-mockup.png", path2="weather-station/noise-mockup.png", path3="weather-station/air-quality-mockup.png") }}
 
-# Research
 {{ key(title="Research") }}
-Honestly, I'm not that much of a weather buff.  I needed to learn more, so I started with some basic terminology research.  I needed to associate a term's number with an emotional response.  For instance, I learned that low barometric pressure indicates poor weather - and would therefore have a negative association.  
 
-I also needed to research how particular data is usually shown.  If there is a standard way to display data for a particular topic, it should stay consistent.  Pictured below are sources I took direction from.
-
-{{ image(path="weather-station/inspo.png") }}
+{% grid(type="image", path="weather-station/inspo.png", header="Research") %}
+    Honestly, I'm not that much of a weather buff.  I needed to learn more, so I started with some basic terminology research.  I needed to associate a term's number with an emotional response.  Pictured are sources I took direction from.
+{% end %}
 
 # User Experience
 Different than most other weather applications, the purpose of this app is to provide information in a fun, unique, and brief manner.  Interaction and information design is the highlight.

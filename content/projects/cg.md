@@ -1,11 +1,12 @@
 +++
 title = "CG Art Collection"
 date = 2018-01-28
+tags = ['3d','motion']
 [extra]
+summary = "A collection of various 3D assets, animations, and projects I've created in the last 5 years.  Mostly in Blender."
 video = "cg/banner.mp4"
+duration_years = 4
 +++
-
-{{ theme(color="dark") }}
 
 When I was 10, my dad showed me a piece of free software called "Blender".  I've stuck with it ever since, and I owe it both my Dad and the Blender Foundation for getting me interested in computers and design.
 

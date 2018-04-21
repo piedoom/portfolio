@@ -1,10 +1,12 @@
 +++
 title = "The Reel: Sports Highlights"
 date = 2018-03-26
+tags = ["ui/ux","motion","client work"]
 [extra]
 video = "the-reel/banner.mp4"
 no_title_on_hover = true
 summary = "The Reel is a mobile app for following, browsing, and sharing short sport highlights clips."
+duration_weeks = 4
 +++
 
 {{ key(title="Intro") }}

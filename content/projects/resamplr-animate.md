@@ -1,11 +1,12 @@
 +++
-title = "Resamplr Plugins"
+title = "Resamplr Animate"
 date = 2018-03-22
+tags = ["ui/ux","desktop app","audio"]
 [extra]
+summary = "Create simple effects or sophisticated sounds with Animate: a flexible and intuitive audio filter automation program."
 video = "plugins/banner.mp4"
+duration_weeks = 2
 +++
-
-{{ theme(color="dark") }}
 
 If you haven't taken a look at [Resamplr](/projects/resamplr) yet, I highly recommend doing so before checking out this post!  It'll help put everything in context.
 
@@ -17,7 +18,7 @@ If you haven't taken a look at [Resamplr](/projects/resamplr) yet, I highly reco
 
 # Invisible Tutorials
 
-Audio plugins are challenging because they require a design that leads the user with little explaination (as nobody wants to read 3 hours of documentation).  k
+Audio plugins are challenging because they require a design that leads the user with little explaination (as nobody wants to read 3 hours of documentation).
 
 I keep a limited, indicative color pallette that has great contrast.  I have different shades and highlights of yellow as markers animation.  Because color sometimes doesn't convey enough information, shape contrast is used.  For instance, the "diamond" shape indicates a keyframe is present on the current frame.  This is similar to programs such as After Effects and may be an affordance to some users.
 {{ image(path="plugins/animate-style.png") }}
