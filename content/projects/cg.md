@@ -6,6 +6,7 @@ tags = ['3d','motion']
 summary = "A collection of various 3D assets, animations, and projects I've created in the last 5 years.  Mostly in Blender."
 video = "cg/banner.mp4"
 duration_years = 4
+show_synopsis = true
 +++
 
 When I was 10, my dad showed me a piece of free software called "Blender".  I've stuck with it ever since, and I owe it both my Dad and the Blender Foundation for getting me interested in computers and design.

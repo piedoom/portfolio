@@ -7,6 +7,7 @@ video = "the-reel/banner.mp4"
 no_title_on_hover = true
 summary = "The Reel is a mobile app for following, browsing, and sharing short sport highlights clips."
 duration_weeks = 4
+show_synopsis = true
 +++
 
 {{ key(title="Intro") }}

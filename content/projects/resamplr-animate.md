@@ -6,6 +6,7 @@ tags = ["ui/ux","desktop app","audio"]
 summary = "Create simple effects or sophisticated sounds with Animate: a flexible and intuitive audio filter automation program."
 video = "plugins/banner.mp4"
 duration_weeks = 2
+show_synopsis = true
 +++
 
 If you haven't taken a look at [Resamplr](/projects/resamplr) yet, I highly recommend doing so before checking out this post!  It'll help put everything in context.

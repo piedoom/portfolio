@@ -7,7 +7,7 @@ video = "weather-station/banner.mp4"
 no_title_on_hover = true
 duration_weeks = 2
 summary = "Overcast is a personal weather station right at your fingertips.  The concept product is a smarthome device that provides useful weather, air quality, and noise pollution data to the user."
-
+show_synopsis = true
 +++
 
 {{ key(title="Intro") }}
