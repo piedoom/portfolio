@@ -4,11 +4,11 @@ date = 2018-03-26
 [extra]
 video = "the-reel/banner.mp4"
 no_title_on_hover = true
+summary = "The Reel is a mobile app for following, browsing, and sharing short sport highlights clips."
 +++
 
 {{ key(title="Intro") }}
 
-The Reel is a mobile app for following, browsing, and sharing short sport highlights clips.
 
 {{ gifv(path="the-reel/video.mp4", max="400px", controls="true") }}
 
