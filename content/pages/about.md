@@ -16,6 +16,10 @@ show_synopsis = false
                 <li> <strong>Design is my area of focus</strong>, but I also love making music, 3D stuff, animation, and programming. </li>
                 <li> <strong>I built this website myself.</strong> </li>
             </ol>
+            <h2>More about me</h2>
+            <p><strong>I've been interested in the intersection between design and technology for what seems like forever.</strong>  I delved into <em>Blender 3D</em> when I was 10, and I've been learning ever since.</p>
+            <p>When I got to college, my computer science roomates inspired me to <strong>learn about programming.</strong>  I currently post often to my <a href="https://github.com/piedoom">Github</a> and sometimes I'll post a tutorial on my <a href="https://vaporsoft.net">dev site</a>.  I created my portfolio page myself, and I'm pretty proud of that!
+            <p>In addition to design, I really love making music.  <strong>I created the music web company <a href="https://resamplr.com">Resamplr</a> which makes high-quality sample libraries and virtual instruments.</strong></p>
             <p>Wanna learn more?  <a href="mailto:alexanderpaullozada@gmail.com">Shoot me a message</a> and take a look at my <a target="_blank" href="https://drive.google.com/open?id=1-gNZ3af-Qd3tU-jOF_wVDRSK1OBEyc4s">resume.</a></p>
         </p>
     </div>
