@@ -48,8 +48,6 @@ I devised a few patterns to follow.  The first "screen" provides more general in
 {{ album2(path1="weather-station/wireframes/wireframe1.jpg", path2="weather-station/wireframes/wireframe2.jpg" small=true) }}
 
 # Experiments
-{{ key(title="Experiments") }}
-
 Now to the hard part: actually deciding what to display, and how to display it.  Let's start with the former.  I chose what to measure based on what sensors were small, cheap, and easily concealed.  This meant small components like humidity detectors were ideal, whereas bulky and expensive tools like anemometers were unlikely to be included.  Here's a list of what I chose to include:
 
 1. UV Light
