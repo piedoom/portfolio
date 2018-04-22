@@ -49,9 +49,9 @@ Engine is more likely to have **hobbyist** and **non-professional** users, since
 
 Although I often enjoy immediately delving into the design of a product, I find it's best to plan beforehand.  To help, I created user flows to compliment each use case.
 
-{{ image(path="sampler/user1.png") }}
-{{ image(path="sampler/user2.png") }}
-{{ image(path="sampler/user3.png") }}
+{{ image(path="sampler/user1.png", noshadow=true) }}
+{{ image(path="sampler/user2.png", noshadow=true) }}
+{{ image(path="sampler/user3.png", noshadow=true) }}
 
 # Wireframes
 {{ key(title="Wireframes") }}
