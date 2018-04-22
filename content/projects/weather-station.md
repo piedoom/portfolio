@@ -13,8 +13,8 @@ show_synopsis = true
 {{ key(title="Intro") }}
 
 {{ disclaimer(unfinished=true) }}
+{{ image(path="weather-station/mockups.png", noshadow=true) }}
 
-{{ album3(path1="weather-station/rainfall-mockup.png", path2="weather-station/noise-mockup.png", path3="weather-station/air-quality-mockup.png") }}
 
 {{ key(title="Research") }}
 
@@ -32,6 +32,10 @@ Different than most other weather applications, the purpose of this app is to pr
 4. They want to use the weather data in their own projects and applications
 
 While weather can be predicted based on previous history and current location, Weather Station focuses on current data opposed to predictions. 
+
+## User Journey 
+First and foremost, the user needs to see an overview of today's weather.  They can interact with the application to see more detailed information.
+{{ image(path="weather-station/userflow.png", nointeraction=true, small=true) }}
 
 
 # Wireframes
