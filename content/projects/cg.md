@@ -45,8 +45,4 @@ Visualizing color bleed and lighting across different floor colors at different 
 {{ image(path="cg/drone.jpg") }}
 {{ gifv(path="cg/flyby.mp4") }}
 {{ image(path="cg/hardsurfacemodelingpractice.jpg") }}
-{{ gifv(path="cg/abstract.mp4") }}
-{{ image(path="cg/abstractstill.png") }}
-{{ gifv(path="cg/abstract2.mp4") }}
-{{ image(path="cg/abstractstill2.png") }}
 {{ gifv(path="cg/interaction.mp4") }}
