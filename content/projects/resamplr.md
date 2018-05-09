@@ -32,24 +32,18 @@ I learned some PHP and HTML, and came up with the above. **This whole post is su
 
 {{ key(title="Rev 2 (2016)") }}
 
-A year or so later, I came back with some new skills.  I learned how to create full stack web applications through my job with **iCanCode Club**.  I took my design knowlege from college and began applying that to my new layout.  I had a few priorities in mind:
-
-1. *It's a commerce site.*  Products should be within the first fold and be featured.
-2. Familiar.  I looked at other popular audio companies like 8Dio and Spitfire Labs.
-3. It should be professional looking, because we're serving professionals, right?
-
-I was wrong about all three of these points.  Let's see what happened!
+A year or so later, I came back with some new skills.  I learned how to create full stack web applications through my job with **iCanCode Club**.  I took my design knowledge from college and began applying that to my new layout.  
 
 {% grid(type="image", path="resamplr/rev2style.png", header="The Style Guide" format="large") %}
-    Remember what I said about clean and professional?  I kept everything pretty sterile looking.  Not only that, but I was one of the poor kids who got sucked into the "use thin fonts for literally everything! It's readable, I promise!" phase. 
+    I kept the brand simplistic, flat, and professional.  I wanted to create a system that allowed me to feature content and have design fade to the back (similar to what one would want with a photography portfolio.)
 {% end %}
 
 
 {{ album4(path1="resamplr/rev2home.png", path2="resamplr/rev2login.png", path3="resamplr/rev2product.png", path4="resamplr/rev2player.png") }}
 
-OK, it wasn't all bad.  You can see how much I progressed with portions, typography, and color with this revision.  But as my friend [Jack](http://jackkaiser.me) put it, *It's boring*.  Music is a fundamental aspect of human creativity.  Design should reflect that.
+You can see how much I progressed with portions, typography, and color with this revision compared to my pre-college experiments.  But as my friend [Jack](http://jackkaiser.me) put it, *It's boring*.  Music is a fundamental aspect of human creativity, and our design should reflect that!
 
-I also began to realize that the majority of my customers were younger hobbyists, not professionals.  This audience was looking more towards a *relatable* brand.
+I also began to realize that the majority of my customers were younger hobbyists, not professionals.  This audience was looking more towards a *relatable* brand.  My corporate look didn't convey that.
 
 {{ break(image="resamplr/banner2.jpg") }}
 

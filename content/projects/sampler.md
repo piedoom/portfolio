@@ -10,6 +10,8 @@ duration_weeks = 3
 show_synopsis = true
 +++
 
+{{ disclaimer(unfinished=true) }}
+
 Yeah, I know the title seems weird.  Let me explain: [Resamplr](/projects/resamplr) is my fledgling audio company.  The flagship product is a low-cost **sampler**, or virtual instrument.  
 
 The current industry standard for digital samplers is Kontakt 5 by Native Instruments.  If I'm going to be honest, it's not the best thing I've ever used.  Sometimes industry standard software stagnates.  So what's wrong, and how can we make it better?
