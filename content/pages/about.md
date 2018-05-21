@@ -24,6 +24,6 @@ show_synopsis = false
         </p>
     </div>
     <div> 
-        <img src="/media/me.png" style="max-width: 500px; display: block; margin: 0 auto;"/>
+        <img src="/media/me.jpg" style="max-width: 500px; display: block; margin: 0 auto;"/>
     </div>
 </div>
