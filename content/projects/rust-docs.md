@@ -56,10 +56,17 @@ The scope of this project should not intersect with Rust's generated docs - so a
 
 ---
 
-### What do users look for?
+### What do users look for? (contd.)
 **Q:** What resources do you expect to be featured/important on documentation sites?  Note: this question is more open-ended than the last, and asks for a user's *desired* features.  Participants chose up to 4 answers.
 
 <canvas class="chart" id="chart-6"></canvas>
+
+---
+
+### What did users dislike about current solutions?
+**Q:** What do you think current external documentation sites do incorrectly?
+
+<canvas class="chart" id="chart-7"></canvas>
 
 ---
 
@@ -255,6 +262,27 @@ Wireframes are coming soon!  Stay tuned.
                 ],
             datasets: [{
                 data: [62, 52, 51, 48, 31, 22, 15, 14, 9, 11],
+                backgroundColor: bgcolor,
+                borderColor: bdrcolor,
+                borderWidth: 1,
+                label: "Number of votes"
+            }]
+        }
+    });
+    // What do you think the site did incorrectly?
+    new Chart(document.getElementById("chart-7").getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: [
+                "Incomplete", 
+                "Poor examples",
+                "Generated docs were more useful",
+                "Poor design",
+                "Required JavaScript",
+                "Slow to load"
+                ],
+            datasets: [{
+                data: [21, 20, 7, 5, 5, 1],
                 backgroundColor: bgcolor,
                 borderColor: bdrcolor,
                 borderWidth: 1,
