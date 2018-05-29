@@ -18,7 +18,6 @@ show_synopsis = true
 
 Rust uses a documentation generator to help users understand an API or application ([here is one example](https://docs.rs/rand/0.5.0/rand/)).  However, sometimes maintainers wish to create more attractive landing pages filled with tutorials and example code.  Notable examples of these websites include [serde.rs](http://serde.rs/), [rocket.rs](https://rocket.rs), and [hyper.rs](https://hyper.rs/).  I call these "external documentation sites", as opposed to the  docs that Rust generates.
 
-{{ key(title="Problem") }}
 # Problem & Solution
 The problem with these sites is that they all highlight different information.  For example, [rocket.rs](https://rocket.rs) provides a whole host of different info and links while something like [serde.rs](http://serde.rs/) covers only examples and documentation.
 
@@ -93,41 +92,60 @@ A vast majority of participants agree that **an external documentation site shou
 
 ---
 
+{{ key(title="Summary") }}
+# Summary
+
 ## Programmers want something easy to set up and maintain.
 
 1. Some participants don't feel as though they have enough time to create a dedicated website
 2. "Ease of use" is voted the most wanted feature 
 3. Participants prefer ease of use over customizability 
 
-## Users want examples and quick info!
+## Users want examples and quick info.
 
 1. Example code is heavily desired website info, with many users disliking websites with incomplete examples
 2. Quick summaries of the project are a must
 3. External links such as to GitHub should be readily visible
 
+## What I learned
+
+As a disclaimer, I'm a designer - not a statistician.  I interpret these numbers to the best of my abilities, but it is possible that I'll make an error.  With that said, here's what I've learned from the survey:
+
+1. **Internationalization is not a huge concern**, despite receiving responses from all over the globe.  However, this is possibly due to the survey being written in English and being posted on mostly English forums.
+2. **Examples are most important**.  Users want to see what the library or application does right off the bat, and how they can utilize it in their own projects.
+3. **The biggest complaint** about external documentation sites **is incomplete information**.  I can push authors in the right direction by making a tool that focuses on **ease of use** and maintainability. 
+4. **Ease of use is most important to authors**.  They are willing to sacrifice some customization for a quick solution.
+5. **Design matters**.  It's a common misconception within some facets of the software community that [visual design is unimportant](https://groups.google.com/forum/#!msg/golang-nuts/hJHCAaiL0so/kG3BHV6QFfIJ).  I was happy to see that Rust users still value the importance of good UI and UX.
+
+## What I did wrong
+
+There's a few things I wish I did differently with this survey.
+
+1. **Focus on disabilities**, especially vision problems.  While any good design should have proper contrast and sizing, understanding how to best serve everyone is important.
+2. **Include non-English communities**.  This survey was posted on overwhelmingly English forums, which may have skewed internationalization opinions.  It would have been wise to team up with others who could translate the survey into other languages.
+
+## Raw data
+The above data is just a selection of the questions asked.  If you like, you can [download a CSV](/media/projects/rust-docs/rust-docs-responses.csv) of the responses.
+
+# Design
+Wireframes are coming soon!  Stay tuned.
+
 <!-- put all our chart data here! -->
 <script>
-    /*var bgcolor = [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                ];*/
     var bgcolor = [
-        "rgba(209, 219, 88, 0.5)", 
-        "rgba(111, 208, 127, 0.5)", 
-        "rgba(23, 184, 168, 0.5)", 
-        "rgba(71, 151, 181, 0.5)", 
-        "rgba(125, 114, 156, 0.5)", 
-        "rgba(142, 79, 106, 0.5)"];
+        'rgba(246, 129, 110, 0.5)',
+        'rgba(234, 121, 144, 0.5)',
+        'rgba(199, 126, 173, 0.5)',
+        'rgba(147, 136, 185, 0.5)',
+        'rgba(86, 142, 178, 0.5)',
+        'rgba(27, 143, 152, 0.5)']
     var bdrcolor = [
-        "rgba(209, 219, 88, 0.8)", 
-        "rgba(111, 208, 127, 0.8)", 
-        "rgba(23, 184, 168, 0.8)", 
-        "rgba(71, 151, 181, 0.8)", 
-        "rgba(125, 114, 156, 0.8)", 
-        "rgba(142, 79, 106, 0.8)"];
+        'rgba(246, 129, 110, 0.8)',
+        'rgba(234, 121, 144, 0.8)',
+        'rgba(199, 126, 173, 0.8)',
+        'rgba(147, 136, 185, 0.8)',
+        'rgba(86, 142, 178, 0.8)',
+        'rgba(27, 143, 152, 0.8)']
     // Have you or do you plan to create an additional website with documentation separate from generated docs?
     new Chart(document.getElementById("chart-1").getContext('2d'), {
         type: 'pie',
