@@ -6,7 +6,7 @@ tags = ["ui/ux","web app","audio"]
 video = "resamplr/banner.mp4"
 no_title_on_hover = true
 summary = "Resamplr has been a passion project of mine since High School.  The goal is to create a modern and approachable audio software company.  This is a summary of the past 5 years I've experimented with its design."
-duration_years = 5
+duration_weeks = 2
 show_synopsis = true
 +++
 
