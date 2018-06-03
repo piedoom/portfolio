@@ -4,9 +4,10 @@ date = 2018-05-28
 tags = ['ui/ux','web']
 [extra]
 summary = "The Rust Language needs a better way to create external documentation websites.  I use a data-based approach to determine the victories and pitfalls of current solutions."
-video = "cg/banner.mp4"
+video = "rust-docs/banner.mp4"
 duration_weeks = 2
 show_synopsis = true
+no_title_on_hover = true
 +++
 
 {{ disclaimer(unfinished=true) }}
