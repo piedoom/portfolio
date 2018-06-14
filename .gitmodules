@@ -5,3 +5,6 @@
 	path = themes/gutenberg-portfolio
 	url = https://github.com/piedoom/gutenberg-portfolio
 	branch = master
+[submodule "static/media/present"]
+	path = static/media/present
+	url = https://github.com/piedoom/portfolio_present
