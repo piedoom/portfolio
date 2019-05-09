@@ -15,16 +15,19 @@ no_title_on_hover = true
 {{ key(title="Background") }}
 
 # Background
+
 [Rust](https://www.rust-lang.org/en-US/) is a systems programming language with a focus on memory safety.  I write the language in day-to-day projects and contributions like [the VST crate](https://github.com/rust-dsp/rust-vst) used for creating digital instruments.
 
 Rust uses a documentation generator to help users understand an API or application ([here is one example](https://docs.rs/rand/0.5.0/rand/)).  However, sometimes maintainers wish to create more attractive landing pages filled with tutorials and example code.  Notable examples of these websites include [serde.rs](http://serde.rs/), [rocket.rs](https://rocket.rs), and [hyper.rs](https://hyper.rs/).  I call these "external documentation sites", as opposed to the  docs that Rust generates.
 
 # Problem & Solution
+
 The problem with these sites is that they all highlight different information.  For example, [rocket.rs](https://rocket.rs) provides a whole host of different info and links while something like [serde.rs](http://serde.rs/) covers only examples and documentation.
 
 My solution is a website creation tool that helps standardize information shown based on user data.
 
 {{ key(title="Data") }}
+
 # Hypotheses & Data
 
 To begin, I wrote a survey designed to gauge user wants and habits when visiting external documentation websites.  Questions were based on several hypotheses:
@@ -37,9 +40,11 @@ To begin, I wrote a survey designed to gauge user wants and habits when visiting
 6. **Most maintainers are looking for a quick solution** to generate an external documentation site at the expense of customization
 
 ## Data
+
 A [small form](https://docs.google.com/forms/d/1iHLJ7z6liQ5KY46WIZCklKzxIT7BGz9p2whxceBjVvQ/) composed of several questions related to my hypotheses were linked to relevant spaces such as [The Rust User Forums](http://users.rust-lang.org) and the [Official Rust Subreddit](https://www.reddit.com/r/rust).  I left my form up for several days to make sure users from all time zones had a chance to answer.  Here's what I found:
 
 ### How are current solutions?
+
 **Q:** How do you view the usefulness of documentation websites separate from generated docs (such as rocket.rs or hyper.rs)?
 
 <canvas class="chart" id="chart-1"></canvas>
@@ -51,6 +56,7 @@ The scope of this project should not intersect with Rust's generated docs - so a
 ---
 
 ### What do users look for?
+
 **Q:** What do you look for when reading an external documentation site?
 
 <canvas class="chart" id="chart-5"></canvas>
@@ -58,6 +64,7 @@ The scope of this project should not intersect with Rust's generated docs - so a
 ---
 
 ### What do users look for? (contd.)
+
 **Q:** What resources do you expect to be featured/important on documentation sites?  Note: this question is more open-ended than the last, and asks for a user's *desired* features.  Participants chose up to 4 answers.
 
 <canvas class="chart" id="chart-6"></canvas>
@@ -65,6 +72,7 @@ The scope of this project should not intersect with Rust's generated docs - so a
 ---
 
 ### What did users dislike about current solutions?
+
 **Q:** What do you think current external documentation sites do incorrectly?
 
 <canvas class="chart" id="chart-7"></canvas>
@@ -72,6 +80,7 @@ The scope of this project should not intersect with Rust's generated docs - so a
 ---
 
 ### What developers want it?
+
 **Q:** Have you or do you plan to create an additional website with documentation separate from generated docs?
 
 <canvas class="chart" id="chart-2"></canvas>
@@ -83,6 +92,7 @@ My **focus is on users who are considering a website**, or feel as though a webs
 ---
 
 ### What do developers want?
+
 **Q:** If you were to create a separate documentation site, what would be the most important features when developing?
 
 <canvas class="chart" id="chart-3"></canvas>
@@ -92,6 +102,7 @@ Participants picked their **top 3 choices**.  Ease of use, documentation, and vi
 ---
 
 ### What do developers want? (contd.)
+
 **Q:** What is more important to you when creating a documentation site?
 
 <canvas class="chart" id="chart-4"></canvas>
@@ -101,6 +112,7 @@ A vast majority of participants agree that **an external documentation site shou
 ---
 
 {{ key(title="Summary") }}
+
 # Summary
 
 ## Programmers want something easy to set up and maintain.
@@ -133,9 +145,11 @@ There's a few things I wish I did differently with this survey.
 2. **Include non-English communities**.  This survey was posted on overwhelmingly English forums, which may have skewed internationalization opinions.  It would have been wise to team up with others who could translate the survey into other languages.
 
 ## Raw data
+
 The above data is just a selection of the questions asked.  If you like, you can [download a CSV](/media/projects/rust-docs/rust-docs-responses.csv) of the responses.
 
 # Design
+
 Wireframes are coming soon!  Stay tuned.
 
 <!-- put all our chart data here! -->

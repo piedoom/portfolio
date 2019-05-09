@@ -12,7 +12,6 @@ show_synopsis = true
 
 {{ key(title="Intro") }}
 
-
 # Beginnings
 
 I began working on Resamplr (or at least the foundations) around Senior year in High School.  Since I was little, I always loved to create music digitally.  I'd often use digitally "sampled" instruments to add some vibrancy to my tracks.  As I grew older, I began to sample instruments of my own, including experiments like homemade instruments and strange combinations like bowed guitars.  I shared these instruments with the internet, and the response was great. 
@@ -33,9 +32,11 @@ A year or so later, I came back with some new skills.  I learned how to create f
 
 ## User Flow
 I began by defining a high-level user flow that would describe the site's interactions.  Being a commerce site, the site stays close to with what most users are comfortable.  
+
 {{ image(path="resamplr/overview-flow.svg", noshadow=true, small=true) }}
 
 Additionally, I mapped the all-important checkout flow.  Although it's fairly basic, I did make sure to reduce friction as much as possible.  The greatest risk to smaller e-commerce sites is a complex, annoying, or time consuming sign-up process.  I mitigated this by allowing users to add items to their cart as a guest.  The site then will prompt them to create an account upon checkout.  
+
 {{ image(path="resamplr/checkout-flow.svg", noshadow=true, small=true) }}
 
 This is important, as users feel more invested in creating an account after spending time adding items to a cart.  If the site asked for an account first, less users would feel compelled to buy anything.
@@ -53,6 +54,7 @@ I also began to realize that the majority of my customers were younger hobbyists
 {{ break(image="resamplr/banner2.jpg") }}
 
 # Rev 3
+
 {{ key(title="Rev 3 (2018)") }}
 
 Instead of looking at audio websites this time, I started my search with *graphics* and *styles* that fit the design language.  
@@ -80,6 +82,7 @@ With these ideas in mind, I created mockups.
 
 
 # Creating it
+
 {{ key(title="Create it") }}
 
 So, what else is there to do but make it?  Resamplr is [live](https://resamplr.com).  I used Rails 5 and traditional HTML/CSS for the current implementation.  

@@ -16,7 +16,9 @@ show_synopsis = true
 {{ gifv(path="the-reel/video.mp4", max="400px", controls="true") }}
 
 # Wireframes
+
 {{ key(title="Wireframes") }}
+
 User flows are straightforward and simple.  Users should be able to "sit back" and watch as many videos as they'd like without obtrusive interactions.  
 {{ image(path="the-reel/wireframe.png") }}
 
@@ -43,5 +45,7 @@ User flows are straightforward and simple.  Users should be able to "sit back" a
 {% end %}
 
 # Stills
+
 {{ key(title="Stills") }}
+
 {{ album6(path1="the-reel/login.png", path2="the-reel/video.png", path3="the-reel/home.png", path4="the-reel/search.png", path5="the-reel/like.png", path6="the-reel/remove.png") }}

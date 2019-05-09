@@ -7,13 +7,14 @@ draft = true
 video = "weather-station/banner.mp4"
 no_title_on_hover = true
 duration_weeks = 2
-summary = "Overcast is a personal weather station right at your fingertips.  The concept product is a smarthome device that provides useful weather, air quality, and noise pollution data to the user."
+summary = "Overcast is a personal weather station right at your fingertips.  The concept product is a smart home device that provides useful weather, air quality, and noise pollution data to the user."
 show_synopsis = true
 +++
 
 {{ key(title="Intro") }}
 
 {{ disclaimer(unfinished=true) }}
+
 {{ image(path="weather-station/mockups.png", noshadow=true) }}
 
 
@@ -24,9 +25,11 @@ show_synopsis = true
 {% end %}
 
 # User Experience
+
 Different than most other weather applications, the purpose of this app is to provide information in a fun, unique, and brief manner.  Interaction and information design is the highlight.
 
 ### Use Cases:
+
 1. They want to know the current weather overview for the day
 2. They want to know a current aspect of the weather for an event (e.g. the U.V. index would be helpful when planning a day out to the beach)
 3. They want to predict the weather in a few hours or days to plan activities
@@ -35,11 +38,13 @@ Different than most other weather applications, the purpose of this app is to pr
 While weather can be predicted based on previous history and current location, Weather Station focuses on current data opposed to predictions. 
 
 ## User Journey 
+
 First and foremost, the user needs to see an overview of today's weather.  They can interact with the application to see more detailed information.
 {{ image(path="weather-station/userflow.png", nointeraction=true, small=true) }}
 
 
 # Wireframes
+
 {{ key(title="Wireframes") }}
 
 With these use cases in mind, I began to design user flows and wireframes.  All revolve around showing data simply and quickly.  
@@ -49,6 +54,7 @@ I devised a few patterns to follow.  The first "screen" provides more general in
 {{ album2(path1="weather-station/wireframes/wireframe1.jpg", path2="weather-station/wireframes/wireframe2.jpg" small=true) }}
 
 # Experiments
+
 Now to the hard part: actually deciding what to display, and how to display it.  Let's start with the former.  I chose what to measure based on what sensors were small, cheap, and easily concealed.  This meant small components like humidity detectors were ideal, whereas bulky and expensive tools like anemometers were unlikely to be included.  Here's a list of what I chose to include:
 
 1. UV Light
@@ -64,20 +70,23 @@ Now to the hard part: actually deciding what to display, and how to display it. 
 # 2. Humidity -->
 
 {{ key(title="Sketches") }}
+
 # Sketches
+
 I began my work with a series of sketches illustrating how each metric would be displayed.  The goals of the project's data visualization are to **be fun**, **be visually related to the data**, and **be accurate**.
 
 > Some of the sketches aren't here yet!  Check back at a later date to see progress with this project.
 
 ## Noise Pollution
-This sensor measures noise levels in decibels.  Higher levels mean it's noisey outside.  Noise is most usually attributed to traffic, yardwork, pets, and other people.  Measuring volume levels can help users find and remove excessive noise sources. 
+
+This sensor measures noise levels in decibels.  Higher levels mean it's noisy outside.  Noise is most usually attributed to traffic, yardwork, pets, and other people.  Measuring volume levels can help users find and remove excessive noise sources. 
 
 {% grid(small=true, max=350 type="image", header="Line Graph", path="weather-station/sketches/noise-sketch-2.jpg") %}
 Initially, I took a simple line graph and added a waveform shape following the curve of the graph.  The data shown was clear, but it wasn't creative or fun.
 {% end %}
 
 {% grid(small=true, reverse=true, max=350 type="image", header="Waveform", path="weather-station/sketches/noise-sketch-3.jpg") %}
-I coordinated the amplitude of a waveform element with the amount of decibels being registered.  This solution incorperates sound elements, but can be difficult to read.
+I coordinated the amplitude of a waveform element with the amount of decibels being registered.  This solution incorporates sound elements, but can be difficult to read.
 {% end %}
 
 {% grid(small=true, max=350, type="image", header="Polar Coordinates", path="weather-station/sketches/noise-sketch-1.jpg") %}
@@ -91,6 +100,7 @@ I basically put a line graph through polar coordinates, and added texture to emu
 <!--- ## Air Quality -->
 
 ## Rainfall
+
 Rainfall allows users to measure the amount of precipitation in inches or centimeters.  This metric is vital in understanding travel risks, potential flooding, and other hazards.  It can also help gardeners know when plants need extra watering.
 
 {% grid(small=true, max=350, type="image", header="Stream", path="weather-station/sketches/rainfall1.jpg") %}
@@ -102,7 +112,7 @@ Next up are graduated cylinders.  While more abstracted, the bar graph style doe
 {% end %}
 
 {% grid(small=true, max=350, type="image", header="Rain Gauge", path="weather-station/sketches/rainfall3.jpg") %}
-This sketch uses a rain guage and allows users to scrub a timeline to see what rain accumulated over the past several hours. 
+This sketch uses a rain gauge and allows users to scrub a timeline to see what rain accumulated over the past several hours. 
 {% end %}
 
 {% grid(small=true, max=350, reverse=true, type="image", header="Rain Gauge", path="weather-station/sketches/rainfall4.jpg") %}

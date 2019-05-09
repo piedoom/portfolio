@@ -13,10 +13,13 @@ show_synopsis = true
 {{ disclaimer(unfinished=true) }}
 
 # Other Versions
+
 This page is a remake of [another project of the same name](/projects/weather-station).  However, my older project focused more on fun visuals and data visualization.  I wanted to redo my idea with a greater focus on user experience and real-world impact.
 
 {{ key(title="Background") }}
+
 # Background
+
 Overcast is a personal, interconnected collection of sensors that read the environment.  Data is available to the user through a phone app, and (with the user's consent) available to third parties in order to more accurately predict weather patterns.  
 
 In concept, the user would set up multiple sensors inside and around their place of residence.  Some of these sensors might include:
@@ -27,7 +30,9 @@ In concept, the user would set up multiple sensors inside and around their place
 - UV light sensors / Pollutant detectors for sending precautionary information
 
 {{ key(title="Goals") }}
+
 # Goals
+
 The goal of Overcast is to provide **clear, concise data in a conversational and approachable way** to help users make **educated decisions based on environmental info**.  Overcast also aims to help **automate home tasks** such as heating and air conditioning in an efficient way that **saves users money**.  In summary, it must:
 
 1. Provide information in a human way
@@ -37,13 +42,18 @@ The goal of Overcast is to provide **clear, concise data in a conversational and
 Overcast's main UX inspiration is derived from - oddly enough - [the Elm compiler](http://elm-lang.org/blog/compiler-errors-for-humans).  I really loved how it took something generally seen as opaque (compiler messages for a programming language) and turned it into a conversation.
 
 {{ key(title="Flow") }}
+
 # User Flow
+
 With the goals and expectations set, I designed a user flow to set a foundation for my UX design.  
 {{ image(path="overcast/user-flow1.png", noshadow=true, small=true, nointeraction=true) }}
 
 {{ key(title="UX") }}
+
 # User Experience
+
 ## Onboarding
+
 If the user has never opened the application before, a short onboarding will help them set up new devices.
 
 {{ image(path="overcast/user-flow2.png", noshadow=true, small=true, nointeraction=true) }}
@@ -73,4 +83,5 @@ After daily Overview card, Overcast will offer home automation and event plannin
 {% end %}
 
 # WIP
+
 More is coming soon!  This project is a work in progress.  Please check back later for more updates.
