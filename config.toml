@@ -1,19 +1,11 @@
 # The URL the site will be built for
 base_url = "https://alexloz.com"
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Gutenberg
-highlight_code = true
-
 theme = "gutenberg-portfolio"
 
 [extra]
-# Put all your custom variables here
-portfolio_tracking_id = "UA-62288351-4"
-#portfolio_name = "Alexander Lozada"
+portfolio_ackee_id = "bd91c871-a323-4e45-82cf-c35b3f027b0a"
+portfolio_ackee_server = "https://ackee.u9h.design"
 portfolio_video = "logotype.mp4"
 portfolio_description = "Hey, what's up.  I'm Alexander Lozada and I'm a designer from Scranton, PA. I'm mainly interested in UI/UX, Motion, and 3D."
 portfolio_contact = "alexanderpaullozada@gmail.com"
